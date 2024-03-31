@@ -1,3 +1,5 @@
 # CSGR-Bio
 
-Code for "Cross -Subject Generalizable Representation Learning with Class-Subject Dual Labels for Biosignals"
+This repository contains the official implementation of Cross-Subject Generalizable Representation Learning with Class-Subject Dual Labels for Biosignals algorithm based on PyTorch.
+
+## 
