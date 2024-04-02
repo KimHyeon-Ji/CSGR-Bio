@@ -2,7 +2,8 @@
 
 This repository contains the official implementation of __"Cross-Subject Generalizable Representation Learning with Class-Subject Dual Labels for Biosignals"__ algorithm based on PyTorch.
 
-We propose an inter-subject similar loss to learn representations robust to inter-subject variability in biosignals. This loss promotes subject invariance, improves the generalizability of the representation, and allows better representations to be learned even with fewer training subjects. 
+We propose an inter-subject similar loss to learn representations robust to inter-subject variability in biosignals. This loss promotes subject invariance, improves the generalizability of the representation, and allows better representations to be learned even with fewer training subjects.
+
 The proposed framework consists of two complementary loss functions: (1) [supervised contrastive loss](https://proceedings.neurips.cc/paper_files/paper/2020/file/d89a66c7c80a29b1bdbab0f2a1a94af8-Paper.pdf) and (2) inter-subject similar loss.
 
 ## Environment setup
