@@ -8,3 +8,23 @@ The code is available in Pytorch 2.1.0. See requirments.txt for all prerequisite
 ```
 pip install -r requirements.txt
 ```
+
+## Running
+During training, users receive continuous logging feedback in the terminal. After training, users can check the log file, tensorboard output and saved models under the generated 'Results' folder.
+
+(1) To train the model in a supervised learning approach with cross-entropy loss, try the following command:
+```
+python Run.py --task 'single model' --dataset mit_bih_afib --epoch 100 --batch-size 128
+```
+
+(2) To train the model with only SupCon, try the following command:
+After the pre-training is performed, the downstream task is performed as well.
+```
+python Run.py --task 'rep_frozen' --rep 'supcon' --dataset mit_bih_afib --epoch 100 --batch-size 128
+```
+
+(3) To train the model with our propose method, try the following command:
+After the pre-training is performed, the downstream task is performed as well.
+```
+python Run.py --task 'rep_frozen' --rep 'supcon+protosim' --dataset mit_bih_afib --epoch 100 --batch-size 128
+```
