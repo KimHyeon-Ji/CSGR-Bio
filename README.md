@@ -28,12 +28,14 @@ python Run.py --task 'single model' --dataset mit_bih_afib --epoch 100 --batch-s
 ```
 
 (2) To train the model with only SupCon, try the following command:
+
 After the pre-training is performed, the downstream task is performed as well.
 ```
 python Run.py --task 'rep_frozen' --rep 'supcon' --dataset mit_bih_afib --epoch 100 --batch-size 128
 ```
 
 (3) To train the model with our propose method, try the following command:
+
 After the pre-training is performed, the downstream task is performed as well.
 ```
 python Run.py --task 'rep_frozen' --rep 'supcon+protosim' --dataset mit_bih_afib --epoch 100 --batch-size 128
