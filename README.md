@@ -6,6 +6,8 @@ We propose an inter-subject similar loss to learn representations robust to inte
 
 The proposed framework consists of two complementary loss functions: (1) [supervised contrastive loss](https://proceedings.neurips.cc/paper_files/paper/2020/file/d89a66c7c80a29b1bdbab0f2a1a94af8-Paper.pdf) and (2) inter-subject similar loss.
 
+![proposed_method](https://github.com/KimHyeon-Ji/CSGR-Bio/assets/72793869/70479920-a274-4d5f-a714-cfc63edd80d0)
+
 ## Environment setup
 The code is available in Pytorch 2.1.0. See requirments.txt for all prerequisites, and you can also install them using the following command.
 
